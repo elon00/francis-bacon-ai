@@ -1,0 +1,51 @@
+{
+  "mcpServers": {
+    "francis-bacon-ai": {
+      "command": "cargo",
+      "args": [
+        "run",
+        "--release",
+        "--quiet"
+      ],
+      "env": {
+        "RUST_LOG": "info",
+        "TITAN_PROTOCOL": "FRANCISBACON",
+        "TARGET_CHAIN": "Solana",
+        "FIPS_203_LEVEL": "ML-KEM-768",
+        "FIPS_204_LEVEL": "ML-DSA-65"
+      },
+      "tools": [
+        {
+          "name": "construct_inductive_elimination_table",
+          "description": "Evaluates tables of presence, absence, and degrees to isolate necessary causal factors",
+          "parameters": {
+            "type": "object",
+            "properties": {
+              "phenomenon_data": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "phenomenon_data"
+            ]
+          }
+        },
+        {
+          "name": "filter_cognitive_idols_of_mind",
+          "description": "Screens raw observation telemetry against Tribe, Cave, Marketplace and Theatre biases",
+          "parameters": {
+            "type": "object",
+            "properties": {
+              "hypothesis_str": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "hypothesis_str"
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

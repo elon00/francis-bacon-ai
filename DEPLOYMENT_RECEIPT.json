@@ -1,0 +1,14 @@
+{
+  "project": "francis-bacon-ai",
+  "network": "Solana Devnet",
+  "cluster_url": "https://api.devnet.solana.com",
+  "mint_address": "D53Tpk5CATwfhkSoG35mZHUeY85yWzpYZ4yPtLfxnueB",
+  "vault_account": "5F49g7rZqnNmAGFqWtT74LLuvajahvdq3j6Xc3BNx3Nu",
+  "initial_supply": 1000000,
+  "decimals": 9,
+  "creation_tx": "2RXPjGK5HJiZa8dTmF2PpR3wwVrht7vJHFRuqqDxRMpFH7pQY8kW7Cqwhmhs6hhdaruxrbppDC4QEFbc5e2sRNUp",
+  "account_tx": "2tHBfhgXvDpd7vTLdZwc1SM8o9G65au4WFmYJGEctxr4Uayvu2soFUi6byUXqhBYt8QWBXRWW2xNsxbT7bLqfzWd",
+  "mint_tx": "35dTUDLyT3gS1ze7ZxRRXAFtGyoBsi9A89rCY2xap7Vmk6Rku2fAq96repgxNkVe2qaCtXzhmfbD4poTJExUaRCv",
+  "solana_explorer_mint": "https://explorer.solana.com/address/D53Tpk5CATwfhkSoG35mZHUeY85yWzpYZ4yPtLfxnueB?cluster=devnet",
+  "timestamp": "2026-10-26 16:31:47 UTC"
+}
